@@ -45,14 +45,14 @@ CinemaVector Search is a Python-based project that implements a **semantic searc
    ```
 
 6. **Run the Project**:
-   - Update `movie_rex.py` with your MongoDB URI and Hugging Face token (or use environment variables).
+   - Update `movie_recs.py` with your MongoDB URI and Hugging Face token (or use environment variables).
    - Run the script to generate embeddings and perform searches:
      ```bash
-     python movie_rex.py
+     python movie_recs.py
      ```
 
 ## Project Structure
-- `movie_rex.py`: Main script for connecting to MongoDB, generating embeddings, creating a vector search index, and performing semantic searches.
+- `movie_recs.py`: Main script for connecting to MongoDB, generating embeddings, creating a vector search index, and performing semantic searches.
 - `.env`: Environment file for storing MongoDB URI and Hugging Face API token (not committed to Git).
 
 ## How It Works
